@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains the datasets used in particle filter localization of a fixed Wi-Fi Access Point (AP). The datasets contain robot path locations, odometry data, and RSSI measurements captured from a mobile robot with multiple receivers onboard moving in an indoor office environment. The datasets have the same structure and the data is all obtained from within the same environment. 
+This repository contains the datasets and code used in particle filter localization, weighted centroid localization, and maximum likelihood localization of a fixed Wi-Fi Access Point (AP). The datasets contain robot path locations, odometry data, and RSSI measurements captured from a mobile robot with multiple receivers onboard moving in an indoor office environment. The datasets have the same structure and the data is all obtained from within the same environment. 
 
 # Experimental setup
 
@@ -47,6 +47,10 @@ The dataset structure is similar to Ref. [2] In fact, the dataset1 in this repos
 
 This dataset is used in the below paper. Please cite the below paper when you use this dataset repository.
 **R. Parashar and R. Parasuraman, "Particle Filter Based Localization of Access Points Using Direction of Arrival on Mobile Robots". In Vehicular Technology Conference VTC-Fall 2020.** CAVVTC Workshop: https://cavvtc.weebly.com/program.html
+
+# Programs
+
+This repository also contains three Python scripts which perform localization using the datasets. The dataset being used can be changed in the programs. WCL1.0.py performs weighted centroid localization, MaxLhoodDOA1.0.py performs maximum likelihood localization, and RSSGauss2.8.py performs particle filter localization (our solution) all as described in the aforementioned paper.
 
 # References
 
