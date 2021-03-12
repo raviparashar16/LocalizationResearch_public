@@ -13,7 +13,7 @@ curr_locs_x = []
 curr_locs_y = []
 g_const = 2
 
-with open("Dataset1.datalog", "r") as dataset_file:
+with open("./robot_paths/Dataset1.datalog", "r") as dataset_file:
     arr = []
     # skips header
     next(dataset_file)
