@@ -45,7 +45,7 @@ while counter < 1:
 
 
     # points from path data set
-    with open("./robot_paths/Dataset1.datalog", "r") as dataset_file:
+    with open("Dataset1.datalog", "r") as dataset_file:
         arr = []
         next(dataset_file)
         # data moved from dataset into array
